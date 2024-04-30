@@ -21,7 +21,7 @@ participant Editor
     Content Sure->>CREDEBL: Send Content <br> for signing
     CREDEBL-->>Content Sure: Signed Content
     Content Sure-->>News Portal: Signed Content Received
-    News Portal->>Editor: Send Review Content
+    News Portal->>Editor: Send to Review Content
 
     Note left of News Portal: Editing Content <br>if required
     Editor->>News Portal: Edit or Approve Content
